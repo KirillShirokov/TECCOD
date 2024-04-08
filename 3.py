@@ -12,8 +12,7 @@ class Point:
         self.y = y
 
     def distance_to(self, other_point):
-        return math.sqrt(
-            (self.x - other_point.x)**2 + (self.y - other_point.y)**2)
+        return math.sqrt((self.x - other_point.x)**2 + (self.y - other_point.y)**2)
 
     def get_coordinates(self):
         return self.x, self.y
